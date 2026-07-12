@@ -1,0 +1,7 @@
+interface:
+  display_name: "增长实验规划器"
+  short_description: "先判断值不值得测，再生成可执行实验卡"
+  default_prompt: "使用 $growth-experiment-planner 评估这个增长想法，并生成实验卡、指标和停止规则。"
+
+policy:
+  allow_implicit_invocation: true
